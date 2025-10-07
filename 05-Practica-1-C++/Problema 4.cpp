@@ -2,11 +2,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-	double nump,edad;
-	cout<<"Ingrese la edad"<<" ";
-	cin>>edad;
-	nump=(220-edad)/10;
-	cout<<"El número de pulsaciones por cada 10 segundos"<<" "<<nump;
-	return 0;
+  double nump, edad;
+  cout << "Ingrese la edad" << " ";
+  cin >> edad;
+  nump = (220 - edad) / 10;
+  cout << "El nï¿½mero de pulsaciones por cada 10 segundos" << " " << nump;
+  return 0;
 }
-
